@@ -1,0 +1,253 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+
+background:linear-gradient(
+135deg,
+#f5edff,
+#efe1ff,
+#fdf4ff
+);
+
+color:#333;
+}
+
+/* NAVBAR */
+
+.navbar{
+
+position:sticky;
+top:0;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:18px 40px;
+
+background:white;
+
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+z-index:1000;
+}
+
+.logo{
+
+font-size:28px;
+font-weight:700;
+color:#9333ea;
+}
+
+.navbar nav a{
+
+text-decoration:none;
+
+margin-left:20px;
+
+color:#7e22ce;
+
+font-weight:600;
+
+transition:.3s;
+}
+
+.navbar nav a:hover{
+
+color:#ec4899;
+}
+
+/* HERO */
+
+.hero{
+
+text-align:center;
+padding:60px 20px;
+}
+
+.profile{
+
+width:220px;
+height:220px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+padding:6px;
+
+background:linear-gradient(
+45deg,
+#c084fc,
+#a855f7,
+#ec4899,
+#f9a8d4
+);
+
+box-shadow:0 15px 30px rgba(168,85,247,.4);
+}
+
+.hero h1{
+
+margin-top:20px;
+color:#6b21a8;
+}
+
+.hero h3{
+
+margin-top:10px;
+}
+
+.hero p{
+
+margin-top:10px;
+}
+
+/* INTRO BOX */
+
+.intro-box{
+
+background:white;
+
+width:90%;
+max-width:1000px;
+
+margin:20px auto;
+
+padding:30px;
+
+border-radius:25px;
+
+text-align:center;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.intro-box h2{
+
+color:#9333ea;
+margin-bottom:15px;
+}
+
+/* CARDS */
+
+.card{
+
+background:white;
+
+width:90%;
+max-width:1000px;
+
+margin:25px auto;
+
+padding:30px;
+
+border-radius:25px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.3s;
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+}
+
+.card h2{
+
+margin-bottom:20px;
+color:#9333ea;
+}
+
+.card h3{
+
+margin:20px 0 10px;
+color:#a855f7;
+}
+
+.card p,
+.card li{
+
+line-height:1.8;
+}
+
+.card ul{
+
+padding-left:20px;
+}
+
+/* IMAGES */
+
+.business,
+.cat{
+
+width:100%;
+
+max-width:700px;
+
+display:block;
+
+margin:auto;
+
+border-radius:20px;
+
+margin-bottom:20px;
+}
+
+/* GALLERY */
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+
+gap:15px;
+
+margin-top:20px;
+}
+
+.gallery img{
+
+width:100%;
+
+height:250px;
+
+object-fit:cover;
+
+border-radius:18px;
+
+transition:.3s;
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+}
+
+/* FOOTER */
+
+footer{
+
+background:linear-gradient(
+45deg,
+#9333ea,
+#c084fc
+);
+
+color:white;
+
+text-align:center;
+
+padding:25px;
+
+margin-top:40px;
+}
